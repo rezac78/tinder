@@ -1,9 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
-
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./index.css";
+import { StyledEngineProvider } from "@mui/material/styles";
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+  <StyledEngineProvider injectFirst>
+    <App />
+  </StyledEngineProvider>,
+  document.getElementById("root")
 );

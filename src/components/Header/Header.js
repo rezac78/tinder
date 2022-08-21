@@ -9,7 +9,7 @@ function Header() {
       <IconButton>
         <PersonIcon fontSize="large" className="header__icon" />
       </IconButton>
-      <img className="header__logo" src="../../../public/77.png" />
+      <img className="header__logo" src="https://s6.uupload.ir/files/77_x6a3.png" />
       <IconButton>
         <ForumIcon fontSize="large" className="header__icon" />
       </IconButton>
